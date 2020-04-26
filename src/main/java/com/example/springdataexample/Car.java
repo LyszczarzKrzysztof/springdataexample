@@ -11,7 +11,7 @@ public class Car {
     private String mark;
     @Transient
     private String model;
-    @Enumerated(EnumType.STRING)  //domyslnie zapisuje jako kolejny od 0 nr elementu enuma tutaj black = 2 jest to strategia EnumType.ORDINAL
+    @Enumerated(EnumType.STRING) //domyslnie zapisuje BD jako kolejny od 0 nr elementu enuma tutaj black = 2 - jest to strategia EnumType.ORDINAL
     private Color color;
 
     //encja zawsze musi mieć bezparametrowy konstruktor
